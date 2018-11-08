@@ -3,9 +3,12 @@ class PostsController < ApplicationController
   def index
     @authors = Author.all
     if condition
-      
-    @posts = Post.all
-  end
+
+    elsif
+
+    else
+      @posts = Post.all
+    end
   end
 
   def show
