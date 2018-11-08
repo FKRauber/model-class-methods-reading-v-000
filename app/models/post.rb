@@ -8,6 +8,14 @@ def self.by_author(author_id)
     where(author: author_id)
 end
 
+def self.from_today
+  
+end
+
+def self.old_news
+  
+end
+
   private
 
   def is_title_case
